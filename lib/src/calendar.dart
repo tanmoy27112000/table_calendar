@@ -788,8 +788,8 @@ class _TableCalendarState extends State<TableCalendar>
         decoration: BoxDecoration(
           shape: BoxShape.circle,
           color: event.toString().split("-")[1] == "SPOT"
-              ? Colors.orange
-              : Colors.blue,
+              ? Colors.blue
+              : Colors.orange,
         ),
       );
     }
