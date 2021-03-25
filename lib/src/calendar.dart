@@ -787,9 +787,9 @@ class _TableCalendarState extends State<TableCalendar>
         margin: const EdgeInsets.symmetric(horizontal: 0.3),
         decoration: BoxDecoration(
           shape: BoxShape.circle,
-          color: event.toString().split("-")[1] == "SPOT"
-              ? Colors.blue
-              : Colors.orange,
+          color: event.toString().split("|")[1] == "SPOT"
+              ? Colors.orange
+              : Colors.blue,
         ),
       );
     }
